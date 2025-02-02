@@ -15,7 +15,7 @@ recommended for real code.
 
 ### Basic usage
 
-See `create-with-supplied.ts`. The `SuppliedDepProvider` needs to be registered.
+See [create-with-supplied.ts](https://github.com/mukunda-/nestjs-hybrid-create-example/blob/main/src/create-with-supplied.ts). The `SuppliedDepProvider` needs to be registered.
 
 Decorate parameters that are to be supplied manually:
 
@@ -34,4 +34,4 @@ const instance = createWithSupplied(moduleRef, MyClass, {
 });
 ```
 
-See `hybrid-create-example.spec.ts` for a minimal test case.
+See [hybrid-create-example.spec.ts](https://github.com/mukunda-/nestjs-hybrid-create-example/blob/main/src/hybrid-create-example.spec.ts) for a minimal test case.
